@@ -32,14 +32,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ::selection 	{
 	background-color:#3f6da2;
 }
-pre {
-	width: 100%;
-	font-family: cursive;
-	text-align: center;
-	overflow: auto;
-	overflow-y: hidden;
-	font-size: 1.2em;
-}
 /************************************************************************************
 GENERAL STYLING
 *************************************************************************************/
@@ -123,6 +115,15 @@ p {
 	padding-top: 0.4em;
 }
 
+pre {
+	width: 100%;
+	font-family: cursive;
+	text-align: center;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 1.2em;
+}
+
 kbd{
   font-weight: bold;
   border-radius: 0.188em;
@@ -176,7 +177,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.18em;
+	font-size: 1.2em;
 	font-style: italic;
     padding: 0.7em 0em 0em 1em;
 }
@@ -188,7 +189,7 @@ h5 {
 }
 
 h6 {
-	font-size: 0.68em;
+	font-size: 0.9em;
     text-transform: uppercase;
 }
 
@@ -435,9 +436,8 @@ CONTENT
 
 .screenshot {
 	max-width: 100%;
-    margin: 1em 0em 0em 1em;
-    border-radius: 0.6em;
-    box-shadow: 0 0 0.4em #070915;
+    border-radius: 0.4em;
+    box-shadow: 0 0 0.4em;
 }
 /************************************************************************************
 SIDEBAR
